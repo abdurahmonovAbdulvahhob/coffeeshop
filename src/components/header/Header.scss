@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #ffffff;
+  &__wrapper {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__icon {
+    display: flex;
+    gap: 50px;
+    cursor: pointer;
+  }
+}
+
+.navbar__info {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 18px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  a:hover {
+    cursor: pointer;
+    color: #c99e71;
+  }
+}
+
+.navbar__right {
+  display: flex;
+  gap: 100px;
+}
